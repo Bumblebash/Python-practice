@@ -1,0 +1,26 @@
+1. Create a repo in Github
+2. git init 
+3. git add .
+4. git comit -m "Initial commit"
+5. git remote add origin [remote_repository_URL]
+6. git push -u origin main
+
+
+=========================================
+Check out the git branch your working in
+1. git branch
+
+if you want to work in Master 
+1. git push -u origin master 
+2. git push
+
+---How to delete master branch
+1. git push origin --delete master
+
+
+--Pull the remote branch into your local branch(In case your have commits that you dont
+have locally
+1. git pull origin main --allow-unrelated-histories
+2. git push -u origin main
+
+
