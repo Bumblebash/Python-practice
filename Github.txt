@@ -1,9 +1,18 @@
+===First push in a Fresh Repo===
 1. Create a repo in Github
 2. git init 
-3. git add .
-4. git comit -m "Initial commit"
-5. git remote add origin [remote_repository_URL]
-6. git push -u origin main
+3. git remote add  origin "[remote_repository_URL]" 
+4. git add .
+5. git commit -m "Commit message"
+#Shifting from master branch to main branch
+6. git branch -M main 
+7. git pull origin  main --allow-unrelated-histories
+#Check Updates
+8. git status
+9. git  add "READMEmd"
+#Final Push
+10. git push origin main 
+
 
 
 =========================================
