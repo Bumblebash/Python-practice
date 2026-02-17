@@ -15,6 +15,8 @@
 
 
 
+
+
 =========================================
 Check out the git branch your working in
 1. git branch
@@ -31,5 +33,7 @@ if you want to work in Master
 have locally
 1. git pull origin main --allow-unrelated-histories
 2. git push -u origin main
-
+ =================================================================
+1. Incase your stuck inside Vim
+:wq
 
