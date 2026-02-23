@@ -50,3 +50,9 @@ have locally
 1. Incase your stuck inside Vim
 :wq
 
+
+===========================================================================================
+Incase you cut and paste the git file into a new file
+During push,
+git push --set-upstream origin main
+
