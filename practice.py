@@ -24,5 +24,58 @@ print('total:', total)
 #prompt a User for an Input
 total = 0
 count = 0
-num = 0
+while True:
+    line = input("Enter a number: ")
 
+    if line == "done":
+        break
+
+    try:
+        number = float(line)
+    except:
+        print ("Enter numeric character")
+        continue
+
+    total = total+number
+    count = count +1 
+
+average = total / count
+
+print("Total:", total)
+print("Count:", count)
+print("Average", average)
+    
+
+
+
+numbers = [23, 45, 78, 89, 23, 12, 56, 900, 1020]
+
+smallest = numbers[0]
+
+for num in numbers:
+    if num < smallest:
+        smallest = num 
+print("Smallest:", smallest)
+        
+
+
+
+count = 0 
+total = 0
+
+while  True:
+    line = input("Enter a Number:")
+    if line.lower() == 'done':
+        break
+    try:
+        number = float(line)
+    except:
+        print("Value Error: Enter a Numeric character")
+        continue 
+
+    count = count + 1
+    total = number + total
+average = total / count
+print("count", count)
+print("total", total)
+print("Average", average)
