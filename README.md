@@ -4,4 +4,6 @@ Python Fundamentals
 2. Conditional Execution
 3. Functions
     - Error Handling(Try/Except)
+- 4. Files
+- 5. Lists 
 
