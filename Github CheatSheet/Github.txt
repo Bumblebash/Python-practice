@@ -56,3 +56,10 @@ Incase you cut and paste the git file into a new file
 During push,
 git push --set-upstream origin main
 
+
+============================================================================================
+--To pull the latest changes into your working directory(Remotely)
+git pull origin main
+ git pull
+git pull --rebase origin main
+
